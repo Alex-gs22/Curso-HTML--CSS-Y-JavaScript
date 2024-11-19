@@ -4,7 +4,7 @@
 
 **Fecha de impartición:** 22 de noviembre.
 
-**Hora de incio y finalización:** 18:30-21:00.
+**Hora de incio y finalización:** 18:30-21:30.
 
 **Liga a la reunión:** https://acortar.link/oX00L5
 
