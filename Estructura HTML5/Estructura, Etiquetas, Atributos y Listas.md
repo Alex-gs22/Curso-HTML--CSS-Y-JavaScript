@@ -26,26 +26,27 @@ Un documento HTML típico incluye los siguientes elementos:
 ```
 
 Desglose de los Elementos:
-<!DOCTYPE html>:
+
+`<!DOCTYPE html>`:
 Declara que el documento utiliza HTML5.
 
-<html>:
+`<html>`:
 Elemento raíz que contiene todo el contenido de la página. El atributo **lang="es"** indica el idioma del contenido.
 
-<head>:
+`<head>`:
 Contiene metadatos sobre la página (Tales como el título y enlaces a estilos o scripts).
 
-<meta charset="UTF-8">:
+`<meta charset="UTF-8">`:
 Define la codificación de caracteres como UTF-8 para admitir caracteres especiales. Ya que por si solo los navegadores no estan configurados para admitirlos.
 
-<title>:
+`<title>`:
 Define el título de la página que aparece en la pestaña superior del navegador.
 
-<body>:
+`<body>`:
 Contiene el contenido visible de la página web.
 
 ## Etiquetas Básicas y su Función
-Encabezados (<h1> a <h6>)
+Encabezados (`<h1>` a `<h6>`)
 ```html
 <h1>Título Principal</h1>
 <h2>Subtítulo</h2>
@@ -56,9 +57,9 @@ Encabezados (<h1> a <h6>)
 ```
 
 Los encabezados estructuran jerárquicamente el contenido.
-<h1> es el nivel más importante y <h6> el menos importante.
+`<h1>` es el nivel más importante y `<h6>` el menos importante.
 
-## Párrafos (<p>)
+## Párrafos (`<p>`)
 
 ```html
 <p>Este es un párrafo de texto que puede contener información, enlaces, y otros elementos.</p>
@@ -66,7 +67,7 @@ Los encabezados estructuran jerárquicamente el contenido.
 
 Se utiliza para agrupar texto en bloques separados.
 
-## Enlaces (<a>)
+## Enlaces (`<a>`)
 
 ```html
 <a href="https://example.com" target="_blank">Visita nuestro sitio</a>
@@ -76,44 +77,45 @@ Crea hipervínculos para navegar a otras páginas o secciones.
 
 ## Atributos comunes
 
-- href: URL del enlace.
-- target="_blank": Abre el enlace en una nueva pestaña.
+- **href**: URL del enlace.
+- **target="_blank"**: Abre el enlace en una nueva pestaña.
 
 ## Atributos en las Etiquetas HTML
 Los atributos son propiedades adicionales que personalizan el comportamiento o el estilo de las etiquetas HTML.
 
 ### Atributos Comunes
-- id: Identificador único del elemento.
+
+- **id**: Identificador único del elemento.
 
 ```html
 <h1 id="titulo-principal">Título Principal</h1>
 ```
 
-- class: Clase que permite aplicar estilos o agrupar elementos.
+- **class**: Clase que permite aplicar estilos o agrupar elementos.
 
 ```html
 <p class="texto-introduccion">Este es un párrafo con estilo.</p>
 ```
 
-- style: Define estilos en línea.
+- **style**: Define estilos en línea.
 
 ```html
 <p style="color: blue; font-size: 16px;">Texto azul con estilo en línea.</p>
 ```
 
-- title: Muestra un texto emergente al pasar el cursor.
+- **title**: Muestra un texto emergente al pasar el cursor.
 
 ```html
 <a href="https://example.com" title="Ir a Example">Enlace</a>
 ```
 
-- lang: Especifica el idioma del contenido.
+- **lang**: Especifica el idioma del contenido.
 
 ```html
 <html lang="es">
 ```
 
-- data-*: Define atributos personalizados para almacenar datos.
+- **data-***: Define atributos personalizados para almacenar datos.
 
 ```html
 <div data-user="12345">Usuario</div>
@@ -123,7 +125,7 @@ Los atributos son propiedades adicionales que personalizan el comportamiento o e
 ## Listas en HTML
 Las listas se utilizan para mostrar elementos relacionados de forma ordenada o desordenada.
 
-### Listas Desordenadas (<ul>)
+### Listas Desordenadas (`<ul>`)
 
 ```html
 <ul>
@@ -134,9 +136,10 @@ Las listas se utilizan para mostrar elementos relacionados de forma ordenada o d
 ```
 
 Se utiliza <ul> para listas donde el orden no importa.
+
 <li> representa cada elemento de la lista.
 
-### Listas Ordenadas (<ol>)
+### Listas Ordenadas (`<ol>`)
 
 ```html
 <ol>
@@ -146,7 +149,7 @@ Se utiliza <ul> para listas donde el orden no importa.
 </ol>
 ```
 
-Se utiliza <ol> para listas con un orden lógico (numeradas).
+Se utiliza `<ol>` para listas con un orden lógico (numeradas).
 
 ### Listas Anidadas
 
