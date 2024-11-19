@@ -51,3 +51,23 @@ La semántica en HTML se refiere al uso correcto de etiquetas para describir el 
     <p>Este es un párrafo de ejemplo.</p>
   </div>
 </div>
+```
+
+### **Con semántica:**
+
+```html
+<header>
+  <h1>Título</h1>
+</header>
+<main>
+  <p>Este es un ejemplo con semántica.</p>
+</main>
+```
+
+--- 
+
+## Ventajas de usar etiquetas semánticas
+   - Mejora la experiencia del usuario.
+   - Optimiza la página para SEO.
+   - Facilita la legibilidad y mantenibilidad del código.
+   - Hace que las páginas sean compatibles con futuras tecnologías.
