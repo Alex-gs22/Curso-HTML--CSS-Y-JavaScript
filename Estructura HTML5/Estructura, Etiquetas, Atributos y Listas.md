@@ -123,6 +123,7 @@ Los atributos son propiedades adicionales que personalizan el comportamiento o e
 
 
 ## Listas en HTML
+
 Las listas se utilizan para mostrar elementos relacionados de forma ordenada o desordenada.
 
 ### Listas Desordenadas (`<ul>`)
@@ -135,9 +136,9 @@ Las listas se utilizan para mostrar elementos relacionados de forma ordenada o d
 </ul>
 ```
 
-Se utiliza <ul> para listas donde el orden no importa.
+Se utiliza `<ul>` para listas donde el orden no importa.
 
-<li> representa cada elemento de la lista.
+`<li>` representa cada elemento de la lista.
 
 ### Listas Ordenadas (`<ol>`)
 
