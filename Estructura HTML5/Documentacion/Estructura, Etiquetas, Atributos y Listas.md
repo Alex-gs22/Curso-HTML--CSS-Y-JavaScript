@@ -45,77 +45,131 @@ Define el título de la página que aparece en la pestaña superior del navegado
 `<body>`:
 Contiene el contenido visible de la página web.
 
-## Etiquetas Básicas y su Función
-Encabezados (`<h1>` a `<h6>`)
+## Etiquetas Básicas en HTML
+
+En HTML, existen etiquetas básicas que son utilizadas frecuentemente para estructurar y dar formato al contenido de una página web. A continuación, se describen las etiquetas más comunes y su función:
+
+---
+
+#### **1. Encabezados (`<h1>` a `<h6>`)**
+
+Los encabezados representan títulos o subtítulos, organizados jerárquicamente. `<h1>` es el nivel más importante, y `<h6>` el menos importante.
+
+**Ejemplo:**
 ```html
 <h1>Título Principal</h1>
 <h2>Subtítulo</h2>
-<h3>Tercer Nivel</h3>
-<h4>Cuarto Nivel</h4>
-<h5>Quinto Nivel</h5>
-<h6>Sexto Nivel</h6>
+<h3>Título Secundario</h3>
 ```
 
-Los encabezados estructuran jerárquicamente el contenido.
-`<h1>` es el nivel más importante y `<h6>` el menos importante.
+#### **2. Párrafos (`<p>`)**
 
-## Párrafos (`<p>`)
+Define bloques de texto como párrafos. Se utiliza para organizar contenido en unidades separadas.
 
 ```html
-<p>Este es un párrafo de texto que puede contener información, enlaces, y otros elementos.</p>
+<p>Este es un párrafo en HTML.</p>
 ```
 
-Se utiliza para agrupar texto en bloques separados.
+#### **3. Negritas (`<b>`)**
 
-## Enlaces (`<a>`)
+Aplica un formato de texto en negrita. Se usa para resaltar texto visualmente sin añadir énfasis semántico.
 
 ```html
-<a href="https://example.com" target="_blank">Visita nuestro sitio</a>
+<b>Texto en negrita</b>
 ```
 
-Crea hipervínculos para navegar a otras páginas o secciones.
+#### **4. Cursiva (`<i>`)**
+
+Aplica un formato de texto en cursiva. Se usa para resaltar texto visualmente sin añadir énfasis semántico.
+
+```html
+<i>Texto en cursiva</i>
+```
+#### **5. Subrayado (`<u>`)**
+
+Subraya el texto para darle un estilo visual adicional.
+
+```html
+<u>Texto subrayado</u>
+```
+
+#### **6. Pequeño (`<small>`)**
+
+Reduce el tamaño del texto. Generalmente se usa para notas al pie o aclaraciones.
+
+```html
+<small>Texto en tamaño pequeño</small>
+```
+
+#### **7. Tachado (`<s>`)**
+
+Muestra texto como tachado. Indica que algo ya no es relevante.
+
+```html
+<s>Texto tachado</s>
+```
+
+#### **8. Línea Horizontal (`<hr>`)**
+
+Dibuja una línea horizontal que puede ser usada para separar contenido.
+
+```html
+<hr>
+```
+
+#### **9. Salto de Línea (`<br>`)**
+
+Inserta un salto de línea en el texto, continuando el contenido en la línea siguiente.
+
+```html
+Primera línea<br>Segunda línea
+```
+
+---
 
 ## Atributos comunes
 
-- **href**: URL del enlace.
-- **target="_blank"**: Abre el enlace en una nueva pestaña.
+`href`: URL del enlace.
+
+`target="_blank"`: Abre el enlace en una nueva pestaña.
 
 ## Atributos en las Etiquetas HTML
+
 Los atributos son propiedades adicionales que personalizan el comportamiento o el estilo de las etiquetas HTML.
 
 ### Atributos Comunes
 
-- **id**: Identificador único del elemento.
+`id`: Identificador único del elemento.
 
 ```html
 <h1 id="titulo-principal">Título Principal</h1>
 ```
 
-- **class**: Clase que permite aplicar estilos o agrupar elementos.
+`class`: Clase que permite aplicar estilos o agrupar elementos.
 
 ```html
 <p class="texto-introduccion">Este es un párrafo con estilo.</p>
 ```
 
-- **style**: Define estilos en línea.
+`style`: Define estilos en línea.
 
 ```html
 <p style="color: blue; font-size: 16px;">Texto azul con estilo en línea.</p>
 ```
 
-- **title**: Muestra un texto emergente al pasar el cursor.
+`title`: Muestra un texto emergente al pasar el cursor.
 
 ```html
 <a href="https://example.com" title="Ir a Example">Enlace</a>
 ```
 
-- **lang**: Especifica el idioma del contenido.
+`lang`: Especifica el idioma del contenido.
 
 ```html
 <html lang="es">
 ```
 
-- **data-***: Define atributos personalizados para almacenar datos.
+`data-*`: Define atributos personalizados para almacenar datos.
 
 ```html
 <div data-user="12345">Usuario</div>
