@@ -6,7 +6,7 @@
 
 **Hora de incio y finalización:** 18:30-21:00.
 
-**Liga a la reunión:** https://acortar.link/oX00L5
+**Liga a la reunión:** [Reunión en Microsoft Teams](https://acortar.link/oX00L5)
 
 **Id. de reunión:** 262 153 765 958
 
