@@ -291,5 +291,5 @@ p.texto {
 
 ### 🌐 Navegación
 
-- --> Siguiente : [Metodología BEM](Metodología-BEM.md)
+- --> Siguiente : [Metodología BEM](Metodología%20BEM.md)
 
