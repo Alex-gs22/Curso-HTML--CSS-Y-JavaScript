@@ -137,3 +137,8 @@ El video mostrará la imagen preview.jpg como portada mientras está detenido o 
 
 ---
 
+### 🌐 Navegación
+
+- <-- Anterior : [Multimedia](Multimedia.md)
+- --> Siguiente : [Div's y Nav](Div's%20y%20Nav.md)
+
