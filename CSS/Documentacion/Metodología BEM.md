@@ -158,3 +158,8 @@ Ventajas:
 - Cada clase está claramente vinculada a su bloque, evitando conflictos.
 
 ---
+
+### 🌐 Navegación
+
+- <-- Anterior : [Introducción y Especificidad](Introducción%20y%20Especificidad.md)
+- --> Siguiente : [Unidades](Unidades.md)
