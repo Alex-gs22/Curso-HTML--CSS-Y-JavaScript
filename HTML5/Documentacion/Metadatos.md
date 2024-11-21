@@ -106,3 +106,9 @@ Indica el idioma principal del documento.
 ```
 
 ---
+
+### 🌐 Navegación
+
+- <-- Anterior : [Div's y Nav](Div's%20y%20Nav.md)
+- <--> Relacionado : [Semantica en HTML](Semantica%20en%20HTML.md)
+- ... Volver al Inicio : [Introducción y Conceptos Basicos](Introducción%20y%20Conceptos%20Basicos.md)
