@@ -107,4 +107,4 @@ Las listas son una herramienta fundamental para estructurar información de form
 ### 🌐 Navegación
 
 - <-- Anterior : [Introducción y Conceptos Basicos](Introducción%20y%20Conceptos%20Basicos.md)
-- --> Siguiente : [Semantica en HTML](Semantica%20en%20%HTML.md)
+- --> Siguiente : [Semantica en HTML](Semantica%20en%20HTML.md)
