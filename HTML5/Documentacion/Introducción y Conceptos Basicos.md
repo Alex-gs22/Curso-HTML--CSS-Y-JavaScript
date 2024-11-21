@@ -175,85 +175,10 @@ Los atributos son propiedades adicionales que personalizan el comportamiento o e
 <div data-user="12345">Usuario</div>
 ```
 
+---
 
-## Listas en HTML
+### 🌐 Navegación
 
-Las listas se utilizan para mostrar elementos relacionados de forma ordenada o desordenada.
-
-### Listas Desordenadas (`<ul>`)
-
-```html
-<ul>
-  <li>Elemento 1</li>
-  <li>Elemento 2</li>
-  <li>Elemento 3</li>
-</ul>
-```
-
-Se utiliza `<ul>` para listas donde el orden no importa.
-
-`<li>` representa cada elemento de la lista.
-
-### Listas Ordenadas (`<ol>`)
-
-```html
-<ol>
-  <li>Primer Elemento</li>
-  <li>Segundo Elemento</li>
-  <li>Tercer Elemento</li>
-</ol>
-```
-
-Se utiliza `<ol>` para listas con un orden lógico (numeradas).
-
-### Listas Anidadas
-
-```html
-<ul>
-  <li>Elemento 1
-    <ul>
-      <li>Subelemento 1</li>
-      <li>Subelemento 2</li>
-    </ul>
-  </li>
-  <li>Elemento 2</li>
-</ul>
-```
-
-Las listas pueden incluir otras listas dentro de sí mismas.
-
-## Ejemplo con Listas y Atributos
-
-```html
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estructura Básica</title>
-</head>
-<body>
-  <header>
-    <h1 id="titulo-principal" class="encabezado">Bienvenidos a HTML</h1>
-  </header>
+- --> Siguiente : [Listas](Listas.md)
   
-  <main>
-    <section>
-      <h2>Listas en HTML</h2>
-      <p>Ejemplo de lista desordenada:</p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-      <p>Ejemplo de lista ordenada:</p>
-      <ol>
-        <li>Primero</li>
-        <li>Segundo</li>
-        <li>Tercero</li>
-      </ol>
-    </section>
-  </main>
-</body>
-</html>
-```
+
