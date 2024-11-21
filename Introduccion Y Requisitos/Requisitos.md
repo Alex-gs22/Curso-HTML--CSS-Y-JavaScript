@@ -34,7 +34,7 @@
 
 1. **Archivos base del curso:**
    - Clonar o descargar el repositorio de GitHub del curso, con la estructura de carpetas y recursos del curso 
-     [Dercargar aquí](https://github.com/Alex-gs22/Curso-HTML--CSS-Y-JavaScript)
+     [Descargar aquí](https://github.com/Alex-gs22/Curso-HTML--CSS-Y-JavaScript)
 
 ---
 
