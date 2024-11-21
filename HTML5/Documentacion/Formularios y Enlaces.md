@@ -226,3 +226,10 @@ Copiar código
 <h2 id="seccion1">Sección 1</h2>
 <p>Contenido de la sección 1.</p>
 ```
+
+---
+
+### 🌐 Navegación
+
+- <-- Anterior : [Formularios y Enlaces](Formularios%20y%20Enlaces.md)
+- --> Siguiente : [Multimedia](Multimedia.md)
