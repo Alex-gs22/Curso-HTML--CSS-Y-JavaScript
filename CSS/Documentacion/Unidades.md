@@ -55,18 +55,170 @@ Las medidas fijas tienen un valor constante, independientemente del tamaño del 
 
 ## **2. Medidas Relativas**
 
-Las medidas relativas se adaptan dinámicamente al tamaño del contenedor, la pantalla o el contenido.
+Las medidas relativas son esenciales para el diseño responsivo porque se adaptan dinámicamente al tamaño del contenedor, pantalla o contenido donde se aplican. A diferencia de las medidas fijas, las relativas permiten crear diseños más flexibles y accesibles, ajustándose automáticamente a diferentes dispositivos y resoluciones.
+
+---
 
 ### **Unidades Relativas Comunes**
 
-- **`%` (porcentaje):** Basado en el tamaño del contenedor padre.
-- **`em`:** Basado en el tamaño de la fuente del elemento padre.
-- **`rem`:** Basado en el tamaño de la fuente raíz (`html`).
-- **`vw` (viewport width):** Porcentaje del ancho de la ventana del navegador.
-- **`vh` (viewport height):** Porcentaje de la altura de la ventana del navegador.
-- **`vmin` y `vmax`:** Basado en el menor (`vmin`) o mayor (`vmax`) entre `vw` y `vh`.
+#### **1. `%` (Porcentaje)**
+
+El porcentaje se basa en el tamaño del contenedor padre. Esto significa que el tamaño del elemento se calcula como un porcentaje del ancho, alto o alguna otra dimensión del contenedor.
+
+**Ejemplo:**
+```html
+<div class="contenedor">
+  <div class="hijo">Contenido ajustado al 50% del ancho del contenedor.</div>
+</div>
+```
+
+```css
+.contenedor {
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.hijo {
+  width: 50%; /* Mitad del ancho del contenedor */
+  height: 50%; /* Mitad del alto del contenedor */
+  background-color: lightblue;
+}
+```
+
+**Uso Común:** Crear elementos que se ajusten proporcionalmente al espacio disponible, como imágenes o contenedores secundarios.
 
 ---
+
+#### **2. `em`**
+
+La unidad `em` se basa en el tamaño de la fuente del elemento padre. Si el tamaño de la fuente del padre es de `16px`, entonces `1em` equivale a `16px`.
+
+**Ejemplo:**
+```html
+<div class="padre">
+  <p class="hijo">Este texto tiene un tamaño relativo al padre.</p>
+</div>
+```
+
+```css
+.padre {
+  font-size: 20px;
+}
+
+.hijo {
+  font-size: 0.8em; /* 80% del tamaño de la fuente del padre */
+}
+```
+
+**Uso Común:** Aplicar tamaños de fuente relativos, paddings o márgenes basados en la fuente del padre.
+
+---
+
+#### **3. `rem`**
+
+La unidad `rem` se basa en el tamaño de la fuente raíz (`html`). Si no se especifica lo contrario, el tamaño base suele ser de `16px`.
+
+**Ejemplo:**
+```html
+<p class="texto">Este texto tiene un tamaño relativo al elemento raíz.</p>
+```
+
+```css
+html {
+  font-size: 16px;
+}
+
+.texto {
+  font-size: 1.5rem; /* 24px, basado en la fuente raíz */
+}
+```
+
+**Diferencia entre `em` y `rem`:** Mientras que `em` depende del elemento padre, `rem` siempre se refiere a la raíz, asegurando consistencia en todo el diseño.
+
+---
+
+#### **4. `vw` (Viewport Width)**
+
+`vw` representa un porcentaje del ancho de la ventana del navegador (viewport). `1vw` equivale al 1% del ancho total de la ventana.
+
+**Ejemplo:**
+```html
+<p class="texto-anchura">Texto ajustado al ancho del viewport.</p>
+```
+
+```css
+.texto-anchura {
+  font-size: 5vw; /* Tamaño dinámico basado en el ancho de la ventana */
+}
+```
+
+**Uso Común:** Elementos que se escalan proporcionalmente al ancho de la pantalla.
+
+---
+
+#### **5. `vh` (Viewport Height)**
+
+`vh` funciona de manera similar a `vw`, pero se basa en la altura de la ventana. `1vh` equivale al 1% de la altura total del viewport.
+
+**Ejemplo:**
+```html
+<div class="contenedor-altura">Este contenedor ocupa el 50% de la altura de la ventana.</div>
+```
+
+```css
+.contenedor-altura {
+  height: 50vh;
+  background-color: lightgreen;
+}
+```
+
+**Uso Común:** Crear elementos que ocupen un porcentaje específico de la altura visible de la pantalla.
+
+---
+
+#### **6. `vmin` y `vmax`**
+
+- **`vmin`:** Basado en el menor valor entre `vw` y `vh`.
+- **`vmax`:** Basado en el mayor valor entre `vw` y `vh`.
+
+**Ejemplo:**
+```html
+<div class="cuadro-vmin">Este cuadro usa vmin.</div>
+<div class="cuadro-vmax">Este cuadro usa vmax.</div>
+```
+
+```css
+.cuadro-vmin {
+  width: 50vmin; /* 50% del menor entre ancho y alto del viewport */
+  height: 50vmin;
+  background-color: lightcoral;
+}
+
+.cuadro-vmax {
+  width: 50vmax; /* 50% del mayor entre ancho y alto del viewport */
+  height: 50vmax;
+  background-color: lightyellow;
+}
+```
+
+**Uso Común:** Diseños dinámicos que necesitan reaccionar al tamaño del viewport en cualquier orientación.
+
+---
+
+### **Ventajas de las Medidas Relativas**
+
+1. **Diseño Responsivo:** Las unidades relativas permiten que el diseño se adapte automáticamente a diferentes dispositivos.
+2. **Flexibilidad:** Facilitan cambios globales en el diseño al modificar solo un tamaño base (`rem` o `%`).
+3. **Accesibilidad:** Mejoran la experiencia del usuario al ajustarse a configuraciones personalizadas como el zoom del navegador.
+
+---
+
+### **Recomendaciones**
+
+- Usa `rem` para establecer tamaños base consistentes.
+- Usa `%`, `vw` y `vh` para diseños fluidos y adaptables.
+- Mezcla unidades relativas con medidas fijas solo cuando sea necesario, como en elementos muy pequeños o específicos.
 
 ## **3. Importancia del Diseño Responsivo**
 
@@ -99,7 +251,7 @@ Un diseño responsivo asegura que tu sitio web se vea y funcione bien en disposi
 ---
 
 
-### 📄 Enlaces Relacionados
+### 🌐 Navegación
 
-- [Volver al inicio](Introduccion-y-especificidad.md)
-- [Siguiente: Medidas Relativas en CSS](Pendiente.md)
+- <-- Anterior : [Metodología BEM](Metodología%20BEM.md)
+- --> Siguiente : [](.md)
