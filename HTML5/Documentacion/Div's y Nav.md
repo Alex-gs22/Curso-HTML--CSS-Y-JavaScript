@@ -165,3 +165,8 @@ Los navegadores y herramientas de accesibilidad interpretan <nav> como una secci
 Debe contener exclusivamente enlaces de navegación. No se debe usar para agrupar cualquier conjunto de enlaces (por ejemplo, enlaces de redes sociales en un pie de página).
 
 ---
+
+### 🌐 Navegación
+
+- <-- Anterior : [Multimedia](Multimedia.md)
+- --> Siguiente : [Metadatos](Metadatos.md)
