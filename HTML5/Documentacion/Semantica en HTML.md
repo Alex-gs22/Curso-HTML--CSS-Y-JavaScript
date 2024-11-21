@@ -71,3 +71,10 @@ La semántica en HTML se refiere al uso correcto de etiquetas para describir el 
    - Optimiza la página para SEO.
    - Facilita la legibilidad y mantenibilidad del código.
    - Hace que las páginas sean compatibles con futuras tecnologías.
+
+---
+
+### 🌐 Navegación
+
+- <-- Anterior : [Listas](Listas.md)
+- --> Siguiente : [Formularios y Enlaces](Formularios%20y%20Enlaces.md)
