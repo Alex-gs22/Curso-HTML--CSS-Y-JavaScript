@@ -185,4 +185,4 @@ Para futuras ocasiones, seguiré este formato. Esto hace que sea más claro y mo
 ### 🌐 Navegación
 
 - <-- Anterior: [Transform y Outline](Transform%20y%20Outline.md)  
-- --> Siguiente: [Static](Static.md)  
+- --> Siguiente : [Position Relative](Position%20Relative.md)
