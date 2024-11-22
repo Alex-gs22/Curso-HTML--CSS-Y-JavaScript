@@ -1,6 +1,6 @@
 # **Propiedades de las Cajas en CSS**
 
-En CSS, las cajas representan la estructura y diseño de los elementos HTML. Estas cajas tienen propiedades que definen su tamaño, apariencia, espaciado interno y externo, bordes y más.
+En CSS, las cajas representan la estructura y diseño de los elementos HTML. Estas cajas tienen propiedades que definen su tamaño, apariencia y espaciado.
 
 ---
 
@@ -40,83 +40,139 @@ Define el color o imagen que llena el fondo de la caja.
 
 ---
 
-## **3. Letra**
+## **3. Espaciado Interno (`padding`)**
 
-Controla el texto dentro de la caja.
+El `padding` es el espacio interno entre el contenido de la caja y sus bordes. Esto asegura que el contenido dentro de la caja no esté pegado al borde.
+
+### **Maneras de Definir el Padding:**
+
+1. **Definición Simple:**
 
 ```css
 .caja {
-  font-size: 16px; /* Tamaño de la fuente */
-  font-family: Arial, sans-serif; /* Familia de fuentes */
-  color: black; /* Color del texto */
+  padding: 10px; /* Aplica 10px de espaciado en los cuatro lados (top, right, bottom, left). */
 }
 ```
 
----
-
-## **4. Bordes (`border`)**
-
-Define el contorno de la caja.
+2. **Definición por Dos Valores:**
 
 ```css
 .caja {
-  border: 2px solid black; /* Borde sólido negro de 2px */
+  padding: 10px 20px; /* 
+  - 10px: Aplica al top y bottom.
+  - 20px: Aplica al right y left.
+  */
 }
 ```
 
----
-
-## **5. Esquinas Redondeadas (`border-radius`)**
-
-Permite redondear las esquinas de la caja.
+3. **Definición por Tres Valores:**
 
 ```css
 .caja {
-  border-radius: 10px; /* Esquinas redondeadas */
+  padding: 10px 20px 15px; /* 
+  - 10px: Aplica al top.
+  - 20px: Aplica al right y left.
+  - 15px: Aplica al bottom.
+  */
 }
 ```
 
----
-
-## **6. Espaciado Interno (`padding`)**
-
-El espacio entre el contenido de la caja y su borde.
+4. **Definición Completa:**
 
 ```css
 .caja {
-  padding: 20px; /* Espaciado interno de 20px */
+  padding: 10px 20px 15px 5px; /* 
+  - 10px: Aplica al top.
+  - 20px: Aplica al right.
+  - 15px: Aplica al bottom.
+  - 5px: Aplica al left.
+  */
+}
+```
+
+### **Definición Independiente:**
+
+Puedes definir el padding para cada lado de forma independiente:
+
+```css
+.caja {
+  padding-top: 10px;    /* Espaciado superior */
+  padding-right: 20px;  /* Espaciado derecho */
+  padding-bottom: 15px; /* Espaciado inferior */
+  padding-left: 5px;    /* Espaciado izquierdo */
 }
 ```
 
 ### Representación Visual del Padding:
-(Espacio para la imagen que muestra las diferentes áreas del padding alrededor del contenido).
+![Padding](../Recursos/paddingimg.png)
 
 ---
 
-## **7. Espaciado Externo (`margin`)**
+## **4. Espaciado Externo (`margin`)**
 
-El espacio entre la caja y otros elementos cercanos.
+El `margin` es el espacio externo entre la caja y otros elementos cercanos. Esto asegura que la caja no esté pegada a otros elementos.
+
+### **Maneras de Definir el Margin:**
+
+1. **Definición Simple:**
 
 ```css
 .caja {
-  margin: 20px; /* Espaciado externo de 20px */
+  margin: 10px; /* Aplica 10px de espaciado en los cuatro lados (top, right, bottom, left). */
+}
+```
+
+2. **Definición por Dos Valores:**
+
+```css
+.caja {
+  margin: 10px 20px; /* 
+  - 10px: Aplica al top y bottom.
+  - 20px: Aplica al right y left.
+  */
+}
+```
+
+3. **Definición por Tres Valores:**
+
+```css
+.caja {
+  margin: 10px 20px 15px; /* 
+  - 10px: Aplica al top.
+  - 20px: Aplica al right y left.
+  - 15px: Aplica al bottom.
+  */
+}
+```
+
+4. **Definición Completa:**
+
+```css
+.caja {
+  margin: 10px 20px 15px 5px; /* 
+  - 10px: Aplica al top.
+  - 20px: Aplica al right.
+  - 15px: Aplica al bottom.
+  - 5px: Aplica al left.
+  */
+}
+```
+
+### **Definición Independiente:**
+
+Puedes definir el margin para cada lado de forma independiente:
+
+```css
+.caja {
+  margin-top: 10px;    /* Espaciado superior */
+  margin-right: 20px;  /* Espaciado derecho */
+  margin-bottom: 15px; /* Espaciado inferior */
+  margin-left: 5px;    /* Espaciado izquierdo */
 }
 ```
 
 ### Representación Visual del Margin:
-(Espacio para la imagen que muestra las áreas de margen alrededor de la caja).
-
----
-
-## **8. Sombra de la Caja (`box-shadow`)**
-
-Añade sombras a la caja.
-
-```css
-.caja {
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra negra con transparencia */
-}
-```
+![Margin](marginimg.png)
 
 ---
 
@@ -134,11 +190,8 @@ Añade sombras a la caja.
       width: 300px;
       height: 150px;
       background-color: lightblue;
-      border: 3px solid black;
-      border-radius: 10px;
-      padding: 20px;
-      margin: 30px;
-      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+      padding: 10px 20px 15px 5px;
+      margin: 15px 25px 20px 10px;
       font-size: 16px;
       font-family: Arial, sans-serif;
       color: black;
@@ -146,27 +199,27 @@ Añade sombras a la caja.
   </style>
 </head>
 <body>
-  <div class="caja">Esta es una caja con múltiples propiedades aplicadas.</div>
+  <div class="caja">Caja con propiedades de padding y margin aplicadas.</div>
 </body>
 </html>
 ```
 
 ---
 
-## **Tabla de Propiedades de las Cajas**
+## **Tabla de Propiedades de Espaciado**
 
-| **Propiedad**       | **Descripción**                                                       |
-|---------------------|-----------------------------------------------------------------------|
-| `width`, `height`   | Define el ancho y alto de la caja.                                   |
-| `background-color`  | Establece el color de fondo.                                         |
-| `background-image`  | Establece una imagen como fondo.                                     |
-| `font-size`         | Tamaño del texto dentro de la caja.                                  |
-| `font-family`       | Define la familia tipográfica.                                       |
-| `border`            | Establece el estilo, ancho y color del borde.                       |
-| `border-radius`     | Permite redondear las esquinas de la caja.                          |
-| `padding`           | Espaciado interno entre el contenido y el borde.                    |
-| `margin`            | Espaciado externo entre la caja y otros elementos.                  |
-| `box-shadow`        | Añade sombra a la caja para resaltar su apariencia.                 |
+| **Propiedad**       | **Descripción**                                                                                  |
+|---------------------|--------------------------------------------------------------------------------------------------|
+| `padding`           | Define el espaciado interno entre el contenido de la caja y sus bordes.                         |
+| `margin`            | Define el espaciado externo entre la caja y otros elementos.                                    |
+| `padding-top`       | Espaciado interno en la parte superior.                                                         |
+| `padding-right`     | Espaciado interno en el lado derecho.                                                           |
+| `padding-bottom`    | Espaciado interno en la parte inferior.                                                         |
+| `padding-left`      | Espaciado interno en el lado izquierdo.                                                         |
+| `margin-top`        | Espaciado externo en la parte superior.                                                         |
+| `margin-right`      | Espaciado externo en el lado derecho.                                                           |
+| `margin-bottom`     | Espaciado externo en la parte inferior.                                                         |
+| `margin-left`       | Espaciado externo en el lado izquierdo.                                                         |
 
 ---
 
@@ -174,5 +227,3 @@ Añade sombras a la caja.
 
 - <-- Anterior : [Teoría de Cajas](Teoría%20de%20Cajas.md)
 - --> Siguiente : [](.md)
-
-  
