@@ -226,4 +226,4 @@ Puedes definir el margin para cada lado de forma independiente:
 ### 🌐 Navegación
 
 - <-- Anterior : [Teoría de Cajas](Teoría%20de%20Cajas.md)
-- --> Siguiente : [](.md)
+- --> Siguiente : [Border's](Border's.md)
