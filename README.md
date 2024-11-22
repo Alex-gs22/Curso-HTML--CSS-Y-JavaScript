@@ -20,6 +20,6 @@
 
 - Al finalizar el curso, los estudiantes serán capaces de:
   - Comprender la estructura y etiquetado de HTML5.
-  - Aplicar estilos básicos y avanzados con CSS3.
-  - Implementar lógica básica en páginas web usando JavaScript.
+  - Aplicar estilos básicos con CSS3.
+  - Implementar lógica en páginas web usando JavaScript.
   - Crear una página web combinando HTML, CSS y JavaScript.
