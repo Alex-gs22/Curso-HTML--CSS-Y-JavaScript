@@ -52,7 +52,7 @@
    - Haz clic en el botón verde `Code` y selecciona `Download ZIP`.
    - Esto descargará un archivo comprimido con todos los recursos del curso.
 
-     ![Paso 1 - Descargar ZIP](HTML5/Recursos/DescargarZIP.png)
+     ![Paso 1 - Descargar ZIP](HTML5/recursos/DescargarZIP.png)
 
    #### **Paso 2:** Extraer el archivo ZIP
    - Busca el archivo ZIP descargado en tu computadora y descomprímelo.
@@ -63,7 +63,7 @@
    - Haz clic en "Abrir carpeta" en la pantalla de inicio.
    - Navega hasta la carpeta descomprimida y selecciónala.
 
-     ![Paso 3 - Abrir Carpeta en VSCode](HTML5/Recursos/pasoapasoZIP.png)
+     ![Paso 3 - Abrir Carpeta en VSCode](HTML5/recursos/pasoapasoZIP.png)
 
    ### Detalles de las imágenes:
    - **Primera imagen (Descargar ZIP):** Muestra dónde hacer clic en el botón `Code` y seleccionar la opción `Download ZIP`.
