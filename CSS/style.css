@@ -1,4 +1,25 @@
 body {
     font-family: "Roboto", sans-serif;
-    
-  }
+    font-size: 25px;
+    padding-top: 25px;    
+}
+
+nav {
+    position: fixed;
+    background-color: #6f52db;
+    width: 100%;
+    margin-top: -25px;
+}
+
+.container {
+    display: inline-block;
+    background-color: rgb(176, 114, 190);
+    padding: 20px;
+}
+
+.list-nav{
+    display: inline;
+}
+p {
+    font-size: 20px;
+}
