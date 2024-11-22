@@ -4,9 +4,10 @@
 
 ## Herramientas Necesarias
 
-1. **Computadora con conexión a internet.**
-   - Procesador básico o intermedio.
-   - Navegador actualizado (Google Chrome recomendado).
+1. **Requerimientos básicos para participar**
+   
+   - Dispositivo con capacidad para ejecutar Teams.
+   - Navegador actualizado (si es necesario para alguna actividad adicional).
 
 2. **Editor de texto o IDE para desarrollo web.**
    ### **Requerido:**
@@ -18,27 +19,16 @@
    - Sublime Text
    - Atom
 
-4. **Entorno local para desarrollo web:**
+3. **Entorno local para desarrollo web:**
    - Instalación de una extensión de servidor local como [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) en Visual Studio Code.
 
-5. **Normalización de Estilos:**
-   - Instalar [Normalize.css](https://necolas.github.io/normalize.css/) para garantizar consistencia en el estilo base entre navegadores.
-
-     **Instrucciones de instalación:**
-     - Descarga el archivo desde [Normalize.css](https://necolas.github.io/normalize.css/).
-     - Inclúyelo en tu proyecto vinculándolo en tu archivo HTML:
-       ```html
-       <link rel="stylesheet" href="normalize.css">
-       ```
-
-6. **Software adicional (Opcional):**
+4. **Software adicional (Opcional):**
    - Tener instalado [Git](https://git-scm.com/) en tu equipo para gestionar repositorios.
    - Cuenta de [GitHub](https://github.com/) para gestionar el proyecto y guardar cambios.
    - Cuenta de [Supabase](https://supabase.com/) para la creación y conexión con bases de datos.
    - Cuenta de [CloudFlare](https://dash.cloudflare.com/sign-up) para publicar una página web de manera gratuita.
 
 ---
-
 ## Recursos a Descargarse Previamente
 
 ### 1. **Archivos base del curso:**
@@ -69,27 +59,50 @@
 
 ## Herramientas y Recursos Complementarios
 
-1. **Prueba inicial:**
-   - Crear un archivo `index.html` y abrirlo en el navegador con la extensión **Live Server**:
+### 1. **Prueba Inicial**
 
-     ```html
-     <!DOCTYPE html>
-     <html lang="es">
-     <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Prueba Inicial</title>
-       <link rel="stylesheet" href="normalize.css">
-     </head>
-     <body>
-       <h1>¡Hola Mundo!</h1>
-     </body>
-     </html>
-     ```
+Antes de comenzar con los contenidos del curso, realizaremos una prueba inicial para asegurarnos de que puedes trabajar con los archivos HTML y visualizarlos en tu navegador.
 
-2. [MDN Web Docs](https://developer.mozilla.org/es/) - Documentación oficial sobre HTML, CSS y JavaScript.
-3. [W3Schools](https://www.w3schools.com/) - Tutoriales y ejemplos interactivos.
-4. [Can I Use](https://caniuse.com/) - Verifica compatibilidad de características en diferentes navegadores.
+#### **Pasos para la Prueba Inicial**
+
+1. **Crear un archivo básico:**
+   - Abre Visual Studio Code o tu editor de texto.
+   - Crea un nuevo archivo llamado `index.html`.
+
+2. **Escribe el siguiente contenido:**
+
+   ```html
+   <!DOCTYPE html>
+   <html lang="es">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Prueba Inicial</title>
+   </head>
+   <body>
+     <h1>¡Hola Mundo!</h1>
+     <p>Este es un ejemplo sencillo para verificar que tu entorno de desarrollo está listo.</p>
+   </body>
+   </html>
+   ```
+
+3. **Guardar el archivo:**
+   - Guarda el archivo en una carpeta donde puedas acceder fácilmente.
+
+4. **Abrir el archivo en el navegador:**
+   - Haz doble clic en el archivo guardado para abrirlo en tu navegador predeterminado.
+   - Deberías ver una página con el texto "¡Hola Mundo!" y un párrafo explicativo.
+
+5. **Verificar el entorno:**
+   - Si puedes ver el contenido en tu navegador, significa que estás listo para avanzar con el curso.
+
+---
+
+### Recursos Adicionales
+
+1. [MDN Web Docs](https://developer.mozilla.org/es/) - Documentación oficial sobre HTML, CSS y JavaScript.
+2. [W3Schools](https://www.w3schools.com/) - Tutoriales y ejemplos interactivos.
+3. [Can I Use](https://caniuse.com/) - Verifica compatibilidad de características en diferentes navegadores.
 
 ---
 
