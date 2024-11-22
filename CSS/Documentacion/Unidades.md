@@ -254,4 +254,4 @@ Un diseño responsivo asegura que tu sitio web se vea y funcione bien en disposi
 ### 🌐 Navegación
 
 - <-- Anterior : [Metodología BEM](Metodología%20BEM.md)
-- --> Siguiente : [](.md)
+- --> Siguiente : [Propiedades del Texto](Propiedades%20del%20Texto.md)
