@@ -231,5 +231,5 @@ Copiar código
 
 ### 🌐 Navegación
 
-- <-- Anterior : [Formularios y Enlaces](Formularios%20y%20Enlaces.md)
+- <-- Anterior : [Semantica en HTML](Semantica%20en%20HTML.md)
 - --> Siguiente : [Multimedia](Multimedia.md)
