@@ -10,15 +10,18 @@
 
 2. **Editor de texto o IDE para desarrollo web.**
    ### **Requerido:**
+   
    - [Visual Studio Code](https://code.visualstudio.com/)
-   #### Alternativas:
+     
+   ### Alternativas:
+   
    - Sublime Text
    - Atom
 
-3. **Entorno local para desarrollo web:**
+4. **Entorno local para desarrollo web:**
    - Instalación de una extensión de servidor local como [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) en Visual Studio Code.
 
-4. **Normalización de Estilos:**
+5. **Normalización de Estilos:**
    - Instalar [Normalize.css](https://necolas.github.io/normalize.css/) para garantizar consistencia en el estilo base entre navegadores.
 
      **Instrucciones de instalación:**
@@ -28,7 +31,7 @@
        <link rel="stylesheet" href="normalize.css">
        ```
 
-5. **Software adicional (Opcional):**
+6. **Software adicional (Opcional):**
    - Tener instalado [Git](https://git-scm.com/) en tu equipo para gestionar repositorios.
    - Cuenta de [GitHub](https://github.com/) para gestionar el proyecto y guardar cambios.
    - Cuenta de [Supabase](https://supabase.com/) para la creación y conexión con bases de datos.
@@ -49,7 +52,7 @@
    - Haz clic en el botón verde `Code` y selecciona `Download ZIP`.
    - Esto descargará un archivo comprimido con todos los recursos del curso.
 
-     ![Paso 1 - Descargar ZIP]((../HTML5/Recursos/DescargarZIP.png)
+     ![Paso 1 - Descargar ZIP](HTML5/Recursos/DescargarZIP.png)
 
    #### **Paso 2:** Extraer el archivo ZIP
    - Busca el archivo ZIP descargado en tu computadora y descomprímelo.
@@ -60,7 +63,7 @@
    - Haz clic en "Abrir carpeta" en la pantalla de inicio.
    - Navega hasta la carpeta descomprimida y selecciónala.
 
-     ![Paso 3 - Abrir Carpeta en VSCode](../HTML5/Recursos/pasoapasoZIP.png)
+     ![Paso 3 - Abrir Carpeta en VSCode](HTML5/Recursos/pasoapasoZIP.png)
 
    ### Detalles de las imágenes:
    - **Primera imagen (Descargar ZIP):** Muestra dónde hacer clic en el botón `Code` y seleccionar la opción `Download ZIP`.
