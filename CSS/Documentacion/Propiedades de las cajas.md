@@ -172,7 +172,7 @@ Añade sombras a la caja.
 
 ### 🌐 Navegación
 
-- <-- Anterior : [Teoría de las cajas](Teoría%20de%20las%20cajas.md)
+- <-- Anterior : [Teoría de Cajas](Teoría%20de%20Cajas.md)
 - --> Siguiente : [](.md)
 
   
