@@ -90,5 +90,5 @@ La imagen ilustra cómo cada parte del modelo interactúa entre sí:
 ### 🌐 Navegación
 
 - <-- Anterior : [Bordes](Border's.md)  
-- --> Siguiente : [Box Model](Box%20Model.md)
+- --> Siguiente : [Box y Text Shadow](Box%20y%20Text%20Shadow.md)
 
