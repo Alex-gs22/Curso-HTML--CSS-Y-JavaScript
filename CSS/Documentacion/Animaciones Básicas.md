@@ -234,4 +234,4 @@ Un cuadro que cambia de tamaño, posición y color en un ciclo infinito.
 ### 🌐 Navegación
 
 - <-- Anterior : [Pseudo-Clases](Pseudo-Clases.md)
-- --> Siguiente : [Transiciones en CSS](Transiciones%20en%20CSS.md)
+- --> Siguiente : [Transiciones en CSS](Transitions.md)
