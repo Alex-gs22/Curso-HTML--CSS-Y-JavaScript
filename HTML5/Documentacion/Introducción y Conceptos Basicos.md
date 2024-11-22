@@ -1,5 +1,11 @@
 # Estructura Básica en HTML
 
+## ¿Qué es HTML?
+
+HTML (HyperText Markup Language) es el lenguaje estándar para la creación de páginas web. Sirve para estructurar y organizar el contenido que será visualizado en un navegador. A través de etiquetas, HTML permite definir encabezados, párrafos, listas, imágenes, enlaces y otros elementos necesarios para construir una página web funcional.
+
+---
+
 ## ¿Qué es la estructura básica en HTML?
 
 La estructura básica de un documento HTML define cómo se organiza el contenido de una página web. Incluye elementos clave que permiten a los navegadores interpretar correctamente la información.
@@ -25,25 +31,17 @@ Un documento HTML típico incluye los siguientes elementos:
 </html>
 ```
 
-Desglose de los Elementos:
+### Desglose de los Elementos:
 
-`<!DOCTYPE html>`:
-Declara que el documento utiliza HTML5.
+- `<!DOCTYPE html>`: Declara que el documento utiliza HTML5.
+- `<html>`: Elemento raíz que contiene todo el contenido de la página. El atributo **lang="es"** indica el idioma del contenido.
+- `<head>`: Contiene metadatos sobre la página (como el título y enlaces a estilos o scripts).
+  - `<meta charset="UTF-8">`: Define la codificación de caracteres como UTF-8 para admitir caracteres especiales.
+  - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Permite que la página sea responsive ajustándose al ancho del dispositivo.
+  - `<title>`: Define el título de la página que aparece en la pestaña superior del navegador.
+- `<body>`: Contiene el contenido visible de la página web.
 
-`<html>`:
-Elemento raíz que contiene todo el contenido de la página. El atributo **lang="es"** indica el idioma del contenido.
-
-`<head>`:
-Contiene metadatos sobre la página (Tales como el título y enlaces a estilos o scripts).
-
-`<meta charset="UTF-8">`:
-Define la codificación de caracteres como UTF-8 para admitir caracteres especiales. Ya que por si solo los navegadores no estan configurados para admitirlos.
-
-`<title>`:
-Define el título de la página que aparece en la pestaña superior del navegador.
-
-`<body>`:
-Contiene el contenido visible de la página web.
+---
 
 ## Etiquetas Básicas en HTML
 
@@ -62,6 +60,8 @@ Los encabezados representan títulos o subtítulos, organizados jerárquicamente
 <h3>Título Secundario</h3>
 ```
 
+---
+
 #### **2. Párrafos (`<p>`)**
 
 Define bloques de texto como párrafos. Se utiliza para organizar contenido en unidades separadas.
@@ -69,6 +69,8 @@ Define bloques de texto como párrafos. Se utiliza para organizar contenido en u
 ```html
 <p>Este es un párrafo en HTML.</p>
 ```
+
+---
 
 #### **3. Negritas (`<b>`)**
 
@@ -78,6 +80,8 @@ Aplica un formato de texto en negrita. Se usa para resaltar texto visualmente si
 <b>Texto en negrita</b>
 ```
 
+---
+
 #### **4. Cursiva (`<i>`)**
 
 Aplica un formato de texto en cursiva. Se usa para resaltar texto visualmente sin añadir énfasis semántico.
@@ -85,6 +89,9 @@ Aplica un formato de texto en cursiva. Se usa para resaltar texto visualmente si
 ```html
 <i>Texto en cursiva</i>
 ```
+
+---
+
 #### **5. Subrayado (`<u>`)**
 
 Subraya el texto para darle un estilo visual adicional.
@@ -92,6 +99,8 @@ Subraya el texto para darle un estilo visual adicional.
 ```html
 <u>Texto subrayado</u>
 ```
+
+---
 
 #### **6. Pequeño (`<small>`)**
 
@@ -101,6 +110,8 @@ Reduce el tamaño del texto. Generalmente se usa para notas al pie o aclaracione
 <small>Texto en tamaño pequeño</small>
 ```
 
+---
+
 #### **7. Tachado (`<s>`)**
 
 Muestra texto como tachado. Indica que algo ya no es relevante.
@@ -109,6 +120,8 @@ Muestra texto como tachado. Indica que algo ya no es relevante.
 <s>Texto tachado</s>
 ```
 
+---
+
 #### **8. Línea Horizontal (`<hr>`)**
 
 Dibuja una línea horizontal que puede ser usada para separar contenido.
@@ -116,6 +129,8 @@ Dibuja una línea horizontal que puede ser usada para separar contenido.
 ```html
 <hr>
 ```
+
+---
 
 #### **9. Salto de Línea (`<br>`)**
 
@@ -127,49 +142,45 @@ Primera línea<br>Segunda línea
 
 ---
 
-## Atributos comunes
-
-`href`: URL del enlace.
-
-`target="_blank"`: Abre el enlace en una nueva pestaña.
-
 ## Atributos en las Etiquetas HTML
 
 Los atributos son propiedades adicionales que personalizan el comportamiento o el estilo de las etiquetas HTML.
 
-### Atributos Comunes
+---
 
-`id`: Identificador único del elemento.
+### **Atributos Comunes**
+
+1. `id`: Identificador único del elemento.
 
 ```html
 <h1 id="titulo-principal">Título Principal</h1>
 ```
 
-`class`: Clase que permite aplicar estilos o agrupar elementos.
+2. `class`: Clase que permite aplicar estilos o agrupar elementos.
 
 ```html
 <p class="texto-introduccion">Este es un párrafo con estilo.</p>
 ```
 
-`style`: Define estilos en línea.
+3. `style`: Define estilos en línea.
 
 ```html
 <p style="color: blue; font-size: 16px;">Texto azul con estilo en línea.</p>
 ```
 
-`title`: Muestra un texto emergente al pasar el cursor.
+4. `title`: Muestra un texto emergente al pasar el cursor.
 
 ```html
 <a href="https://example.com" title="Ir a Example">Enlace</a>
 ```
 
-`lang`: Especifica el idioma del contenido.
+5. `lang`: Especifica el idioma del contenido.
 
 ```html
 <html lang="es">
 ```
 
-`data-*`: Define atributos personalizados para almacenar datos.
+6. `data-*`: Define atributos personalizados para almacenar datos.
 
 ```html
 <div data-user="12345">Usuario</div>
@@ -180,5 +191,3 @@ Los atributos son propiedades adicionales que personalizan el comportamiento o e
 ### 🌐 Navegación
 
 - --> Siguiente : [Listas](Listas.md)
-  
-
