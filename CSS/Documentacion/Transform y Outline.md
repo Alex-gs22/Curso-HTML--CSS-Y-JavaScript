@@ -137,4 +137,4 @@ La propiedad **outline** crea un borde resaltado alrededor de un elemento, pero 
 ### 🌐 Navegación
 
 - <-- Anterior: [Box y Text Shadow](Box%20y%20Text%20Shadow.md)  
-- --> Siguiente: [Transiciones y Transformaciones Avanzadas](Transiciones.md)  
+- --> Siguiente: [Position's y Z-INDEX.md](Position's%20y%20Z-INDEX.md)  
