@@ -172,7 +172,7 @@ Puedes definir el margin para cada lado de forma independiente:
 ```
 
 ### Representación Visual del Margin:
-![Margin](marginimg.png)
+![Margin](../Recursos/marginimg.png)
 
 ---
 
