@@ -41,7 +41,7 @@
 
 ## Recursos a Descargarse Previamente
 
-1. **Archivos base del curso:**
+### 1. **Archivos base del curso:**
    - Clonar o descargar el repositorio de GitHub del curso, con la estructura de carpetas y recursos del curso.  
      [Descargar aquí](https://github.com/Alex-gs22/Curso-HTML--CSS-Y-JavaScript).
 
@@ -52,7 +52,7 @@
    - Haz clic en el botón verde `Code` y selecciona `Download ZIP`.
    - Esto descargará un archivo comprimido con todos los recursos del curso.
 
-     ![Paso 1 - Descargar ZIP](HTML5/recursos/DescargarZIP.png)
+![Paso 1 - Descargar ZIP](HTML5/recursos/DescargarZIP.png)
 
    #### **Paso 2:** Extraer el archivo ZIP
    - Busca el archivo ZIP descargado en tu computadora y descomprímelo.
@@ -63,11 +63,7 @@
    - Haz clic en "Abrir carpeta" en la pantalla de inicio.
    - Navega hasta la carpeta descomprimida y selecciónala.
 
-     ![Paso 3 - Abrir Carpeta en VSCode](HTML5/recursos/pasoapasoZIP.png)
-
-   ### Detalles de las imágenes:
-   - **Primera imagen (Descargar ZIP):** Muestra dónde hacer clic en el botón `Code` y seleccionar la opción `Download ZIP`.
-   - **Segunda imagen (Abrir Carpeta en VSCode):** Indica cómo seleccionar la carpeta descomprimida para abrirla en el editor Visual Studio Code.
+![Paso 3 - Abrir Carpeta en VSCode](HTML5/recursos/pasoapasoZIP.png)
 
 ---
 
