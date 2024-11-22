@@ -19,7 +19,7 @@ La **teoría de cajas naturales** es un concepto clave en CSS. Define cómo los 
 - `<section>`, `<article>`, `<footer>`.
 
 #### **Así se ve un elemento en bloque:**
-(Espacio para la imagen que muestra un encabezado `<h1>` o un párrafo `<p>` ocupando todo el ancho disponible).
+![Elemento en bloque](../Recursos/bloqueimg.png)
 
 ---
 
@@ -37,7 +37,7 @@ La **teoría de cajas naturales** es un concepto clave en CSS. Define cómo los 
 - `<small>`: Texto con tamaño reducido.
 
 #### **Así se ve un elemento en línea:**
-(Espacio para la imagen que muestra un fragmento de texto con una palabra en `<b>` o `<i>`).
+![Elemento en linea](../Recursos/inlineimg.png)
 
 ---
 
@@ -73,7 +73,6 @@ La **teoría de cajas naturales** es un concepto clave en CSS. Define cómo los 
 ### 🌐 Navegación
 
 - <-- Anterior : [Propiedades del Texto](Propiedades%20del%20Texto.md)
-- --> Siguiente : [](.md)
-```
+- --> Siguiente : [Propiedades de las cajas](Propiedades%20de%20las%20cajas.md)
 
-**Nota:** Asegúrate de añadir las imágenes correspondientes en los espacios marcados, mostrando cómo se visualizan los elementos en bloque y en línea.
+
