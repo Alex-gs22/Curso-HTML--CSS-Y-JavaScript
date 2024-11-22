@@ -73,17 +73,17 @@ p {
 1. **Accede a Google Fonts**
    Visita [Google Fonts](https://fonts.google.com) y selecciona la fuente que deseas usar (por ejemplo, "Roboto").
    
-   ![Paso 1: Google Fonts](fontimg1.png)
+   ![Paso 1: Google Fonts](../Recursos/fontimg1.png)
 
 2. **Selecciona la Familia de Fuentes y Obten la Fuente**
    Haz clic en la fuente deseada y selecciona los estilos que necesites (por ejemplo, "Thin 100", "Bold 700"), posteriormente haz click en **Get Font**.
    
-   ![Paso 2: Selección de Fuente](fontimg2.png)
+   ![Paso 2: Selección de Fuente](../Recursos/fontimg2.png)
 
 3. **Obtén el Código de Inserción**
    Copia el enlace generado en el apartado "Embed code" para integrarlo en el archivo HTML.
    
-   ![Paso 3: Código de Inserción](fontimg3.png)
+   ![Paso 3: Código de Inserción](../Recursos/fontimg3.png)
 
 4. **Integra la Fuente en tu HTML**
    Añade el enlace en la sección `<head>` de tu documento.
@@ -113,7 +113,7 @@ body {
 }
 ```
 
-   ![Paso 4: Ejemplo en Uso](fontimg4.png)
+   ![Paso 4: Ejemplo en Uso](../Recursos/fontimg4.png)
 
 ---
 
