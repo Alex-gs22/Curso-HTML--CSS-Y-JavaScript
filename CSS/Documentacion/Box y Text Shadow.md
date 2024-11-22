@@ -160,5 +160,5 @@ Al igual que box-shadow, puedes agregar múltiples sombras separándolas con com
 
 ## 🌐 Navegación
 
-- <-- Anterior: [Bordes](Border's.md)  
+- <-- Anterior: [Box Model](Box%20Model.md)
 - --> Siguiente: [Transformaciones](Transformaciones.md)  
