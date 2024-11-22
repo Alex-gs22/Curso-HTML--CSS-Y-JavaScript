@@ -233,4 +233,4 @@ Puedes aplicar bordes a lados específicos con las propiedades:
 ### 🌐 Navegación
 
 - <-- Anterior : [Propiedades de las Cajas](Propiedades%20de%20las%20cajas.md)
-- --> Siguiente : [](.md)
+- --> Siguiente : [Box Model](Box%20Model.md)
