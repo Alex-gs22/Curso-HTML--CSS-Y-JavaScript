@@ -1,22 +1,16 @@
 * {
-    font-family: "Roboto", sans-serif;
-    font-size: 40px;  
+    font-family: "Geist Mono", monospace;
+    
 }
 
-body{
-    padding-top: 50px;
-}
-nav {
-    position: fixed;
-    background-color: red;
-    width: 100%;
-    margin-top: -50px;
-}
-
-
-.list-nav{
+.block {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: lightgray;
+  }
+  .flex-item {
     display: inline-block;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
+    background-color: skyblue;
+    padding: 10px;
+  }
